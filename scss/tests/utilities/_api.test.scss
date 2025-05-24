@@ -33,7 +33,7 @@ $utilities: ();
 
     @include assert() {
       @include output() {
-        @use "../../utilities/api";
+        @import "../../utilities/api";
       }
 
       @include expect() {
