@@ -1,5 +1,5 @@
 @use "mixins/banner";
-@use "include-bs-banner-utilities";
+@use "include-bs-banner-utilities" as *;
 
 // Configuration
 @use "functions";

@@ -1,5 +1,5 @@
 @use "mixins/banner";
-@use "include-bs-banner-reboot";
+@use "include-bs-banner-reboot" as *;
 
 @use "functions";
 @use "variables";

@@ -1,7 +1,7 @@
 @use "mixins/banner";
-@use "include-bs-banner-grid";
+@use "include-bs-banner-grid" as *;
 
-@use "include-column-box-sizing";
+@use "include-column-box-sizing" as *;
 
 @use "functions";
 @use "variables";
@@ -19,6 +19,6 @@
 @use "grid";
 
 @use "utilities";
-@use "bootstrap-grid-utilities-map";
+@use "bootstrap-grid-utilities-map" as *;
 
 @use "utilities/api";

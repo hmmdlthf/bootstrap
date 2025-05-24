@@ -1,4 +1,4 @@
-@use "../../utilities-override";
+@use "../../utilities-override" as *;
 
 // Important: Do not import rfs to check that the mixin just calls the appropriate functions from it
 @use "../../mixins/utilities";
